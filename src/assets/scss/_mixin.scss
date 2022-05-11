@@ -1,0 +1,8 @@
+@mixin media ($device) {
+
+    @if $device =='desktop' {
+        @media screen and (min-width: 600px) {
+            @content
+        };
+    };
+};
